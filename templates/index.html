@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hospital Patient Portal</h1>
+    <p>This portal allows users to add and delete patient names to/from the hospital database.</p>
+    
+    <!-- Dropdown Menu with Flask Routes -->
+    <select onchange="if (this.value) window.location.href=this.value">
+        <option value="" selected disabled>Action</option>
+        <option value="/add">Add Patient</option>
+        <option value="/delete">Delete Patient</option>
+    </select>
+</body>
+</html>
