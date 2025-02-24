@@ -16,7 +16,11 @@
     <h1>Hospital Patient Portal</h1>
     <p>This portal allows users to add and delete patient names to/from the hospital database.</p>
     
-    <!-- Dropdown Menu with Flask Routes -->
+    <!-- dropdown menu with flask routes
+     onchange event triggered when dropdown menu state changes
+     this.value refers to option selected by user
+     uses flask routes to render corresponding page
+     --> 
     <select onchange="if (this.value) window.location.href=this.value">
         <option value="" selected disabled>Action</option>
         <option value="/add">Add Patient</option>
