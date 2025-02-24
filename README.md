@@ -11,9 +11,9 @@ This is a web-based application built using Flask, The application provides a si
 Make sure to have python installed on your system. pip install flask. 
 
 ## Usage
-python -m venv venv
-source .venv/bin/activate
-pip install -r requirements.txt
+python -m venv venv <br />
+source .venv/bin/activate <br />
+pip install -r requirements.txt <br />
 python app.py
 
 
